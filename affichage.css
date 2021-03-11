@@ -1,0 +1,280 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Alfa Slab One', cursive;
+	text-decoration: none;
+	color: white;
+}
+.nav1{
+	position: relative;
+	width: 100%;
+	background-color: #564461;
+	position: relative;
+	padding: 15px 0px;
+}
+.nav1 .config{
+	width: 1300px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+
+}
+.logo a{
+	font-size: 40px;
+	font-weight: 400px;
+	border: 2px white solid;
+	border-radius: 5px;
+	color: white;
+}
+.logo span{
+	color: #000000;
+}
+.logo span:hover{
+	transition: 0.5;
+	color: white;
+}
+.logo a:hover{
+	transition: 0.5;
+	color: black;
+	background-color: #310C3B;
+}
+.menu{
+	padding-top: 10px;
+}
+.menu li{
+	display: inline-block;
+	margin-left: 25px;
+}
+.menu li a{
+	color: white;
+	font-size:20px;
+	font-weight: 150px;
+	
+	border-radius: 50px;
+	
+}
+.menu li a:hover{
+	transition: 0.5;
+	color: black;
+	background-color: #605368;
+}
+.menu .sous{
+	display: none;
+	position: absolute;
+
+}
+.menu li:hover .sous{
+	display: block;
+	
+}
+.sous li{
+	display: flex;
+	text-align: center;
+	margin-top: 5px;
+}
+/*******************************/
+.home .sec1{
+	width: 100%;
+	height: 100%;
+	background-color: #310C3B;
+	display: flex;
+	font-family: 'Prata', serif;
+	font-size: 25px;
+}
+
+.sec1 .gauche{
+	width: 25%;
+	background-color:#310C3B;
+	height: 100%;
+	margin-top: 65px;
+
+}
+.sec1 .droite{
+	width: 25%;
+	background-color:#310C3B;
+	height:100%;
+	margin-top: 65px;
+}
+.sec1 .centre{
+	width: 75%;
+	background-color:#310C3B;
+	height: 100%;
+	margin-top: 65px;
+	justify-content: space-between;
+}
+.centre h1{
+	font-size: 40px;
+	text-decoration: underline;
+	text-align:center;
+	margin-bottom: 40px; 
+	font-family: 'Monoton', cursive;
+}
+.centre .video{
+	text-align: center;
+	width: auto;
+	justify-content: center; 
+	margin-top: 20px;
+}
+.video{
+	background-color: #564461;
+	margin-bottom: 50px;
+	width: 100%;
+	height:500px; 
+	color: white;
+	position: relative;
+	border-radius: 10px;
+	margin-right: 20px;
+	object-fit: cover;
+}
+.video .vid{
+	border-radius: 10px;
+}
+.centre h2{
+	font-size:40px;
+	font-family: 'Monoton', cursive;
+	margin-bottom: 30px;
+	text-decoration: underline;
+	text-align: center;
+}
+.centre p{
+	font-family: 'Prata', serif;
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+.centre .spec{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.centre .spec table th{
+	font-family: 'Prata', serif;
+	font-size: 20px;
+	align-content: center;
+	text-align: center;
+
+}
+.centre img{
+	border-radius: 20px;
+	margin-bottom: 5px;
+	margin-top:5px;
+	object-fit: cover;
+	width: 100%;
+}
+/*******************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+footer{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #564461;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4 span{
+	color:black;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a i{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.social-links a i:hover{
+	color: #24262b;
+	background-color: #ffffff;
+
+}
+.container p{
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+}
+.container p span{
+	color:#e91e63;
+}
+.footer-col  a i{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+ a i:hover{
+	color: #24262b;
+	background-color: #ffffff;
+
+}
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
